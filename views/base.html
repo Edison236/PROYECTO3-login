@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heladeria</title>
+
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/login.css">
+</head>
+<body>    
+    <header>
+        <h1>BIENVENIDO A LA HELADERIA LADEMORA</h1>
+        <nav>
+            <ul>
+                <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="/productos/vender">Vender producto</a></li>
+                <li><a href="/productos/nuevo">Agregar Producto</a></li>
+                <li><a href="/ingredientes/nuevo">Agregar Ingrediente</a></li>
+                <li><a href="/productos">Ver Productos</a></li>
+                <li><a href="/ingredientes">Ver Ingredientes</a></li>
+            </ul>
+        </nav>
+        <a href="/login" >Iniciar sesión</a>  
+    </header>
+    {% block content %}
+    <main>
+        <div class="container">
+            
+        </div>
+    </main>
+    {% endblock %}
+    <footer>
+        <p>&copy; 2024 Heladería la demora. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

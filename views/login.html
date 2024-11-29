@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="loginForm">
+        <h1>Inicio de sesión</h1>
+        <form method="POST" action="/login">
+            <div class="username">
+                <input name="username" type="text" required>
+                <label>Nombre de usuario</label>
+            </div>
+            <div class="username">
+                <input name="password" type="password" required>
+                <label>Contraseña</label>
+            </div>
+            <div class="recover">¿Olvido su contraseña?</div>
+            <input type="submit" value="Iniciar">
+        </form>
+    </div>
+{% endblock %}
