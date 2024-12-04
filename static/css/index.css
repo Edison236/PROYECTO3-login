@@ -15,6 +15,7 @@ header {
 
 main {
     padding: 0px;
+    height: 85vh;
 }
 
 .container {
@@ -46,4 +47,15 @@ footer{
     font-size: 18px;
     color: white;
     text-align: center;
+}
+
+.box {
+    /* width: 100px;*/
+    height: 200px; 
+    margin: 10px;
+    background-color: #ecedf5;
+    border: 5px solid blue;
+    display: inline-block;
+    text-align: center;
+    /*line-height: 100px;  Centra el texto verticalmente */
 }

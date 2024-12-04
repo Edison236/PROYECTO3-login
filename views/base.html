@@ -26,12 +26,16 @@
     {% block content %}
     <main>
         <div class="container">
-            
+            {% for i in range(20) %}
+                <div class="box">
+                    <h2>Producto {{ i + 1 }}</h2>
+                    <h3>Nombre: Helado de vainilla</h3>
+                    <h3>Precio: $32.000</h3>
+                </div>
+
+            {% endfor %}
         </div>
     </main>
     {% endblock %}
-    <footer>
-        <p>&copy; 2024 Heladería la demora. Todos los derechos reservados.</p>
-    </footer>
 </body>
 </html>

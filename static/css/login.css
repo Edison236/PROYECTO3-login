@@ -91,4 +91,7 @@ input[type="submit"]:hover{
     border-color: purple;
     transition: .5s;
 }
+.alert_msg{
+    background-color: red;
+}
 
